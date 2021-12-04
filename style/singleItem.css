@@ -1,0 +1,74 @@
+:root {
+  --mainBg: rgb(255, 255, 255);
+}
+
+
+#imgsCon .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--globalMarginTop);
+  height:fit-content ;
+  /* background-color: blueviolet; */
+}
+#imgsCon .left {
+  flex-basis: 40%;
+  padding: 25px;
+  /* background-color: aqua; */
+}
+#imgsCon .left > * {
+  margin-bottom: 20px;
+}
+#imgsCon .left > h1 {
+  text-transform: capitalize;
+}
+#imgsCon .left > p {
+  font-size: var(--pFontSize);
+  text-transform: capitalize;
+  line-height: var(--lineHeight);
+}
+
+#imgsCon .right {
+  height: 100%;
+  flex-basis: 45%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+#imgsCon .right > * {
+ margin-bottom: 20px;
+}
+
+#imgContainerDetails select {
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  height: 40px;
+  font-size: 15px;
+  width: 40%;
+}
+
+#imgContainerDetails input {
+  width: 100px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+@media (max-width: 992px) {
+  #imgsCon .container{
+    flex-direction: column;
+  }
+  #imgsCon .left {
+  /* flex-basis: 80%; */
+}
+}

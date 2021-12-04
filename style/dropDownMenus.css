@@ -1,0 +1,141 @@
+.dropDown i {
+  margin: 0px;
+  font-size: 18px;
+}
+.dropDown:nth-of-type(2) > i:nth-of-type(0) {
+  color: navajowhite;
+}
+.dropDown:nth-of-type(2) > i:nth-of-type(1) {
+  margin-left: 18%;
+}
+.dropDown span {
+  font-size: 16px;
+  padding: 10px;
+  display: inline-block;
+  height: 100%;
+  /* background-color: salmon;  */
+}
+.dropDown {
+  padding: 5px;
+  color: black;
+  margin-left: 2px;
+  width: 150px;
+  /* background-color: gold; */
+  height: 100%;
+}
+.dropped {
+  margin-top: 5px;
+  width: 200px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 3px solid transparent;
+  background-color: white;
+  margin-left: -30px;
+  box-shadow: 1px 1px 1px 1px var(--hoverColor),
+    -1px -1px 1px 1px var(--hoverColor);
+}
+.dropped i {
+  padding: 5px 10px 5px 5px;
+}
+.dropped button {
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  color: white;
+  background-color: orangered;
+}
+.dropped li {
+  margin: 5px 0px;
+  padding: 5px;
+  font-size: 14px;
+}
+.dropped li:not(.menuBtn):hover {
+  background-color: var(--hoverColor);
+}
+.dropped li > *:not(button) {
+  color: rgb(40, 40, 40);
+}
+.dropped li:nth-of-type(2) {
+  border-top: 1px solid gainsboro;
+}
+
+.tooltip {
+  /* background-color: hotpink; */
+  margin: 20px;
+  position: relative;
+  padding: 10px;
+  display: inline-block;
+}
+/* .tooltip .tooltiptext  li{background-color: seagreen;} */
+.tooltip .tooltiptext {
+  display: none;
+  text-align: left;
+  width: 150px;
+  height: fit-content;
+  border-right: 1px solid gainsboro;
+  background-color: white;
+  border-radius: 3px;
+  color: #fff;
+  padding: 0px;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 0px;
+  /* margin-left: -60px; */
+  opacity: 0;
+  transition: opacity 0.3s;
+  box-shadow: 1px 1px 1px 1px var(--hoverColor),
+    -1px -1px 1px 1px var(--hoverColor);
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: -11%;
+  left: 5%;
+  margin-left: 2px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent rgb(125,125,130) transparent;
+  
+}
+
+.tooltip:hover .tooltiptext {
+  display: block;
+  opacity: 1;
+}
+
+.dropRight {
+  color: rgb(40, 40, 40);
+  width: 100%;
+  padding: 10px 10px;
+  text-align: left;
+  position: relative;
+}
+.rightDropped {
+  width: 200px;
+  padding: 5px;
+  position: absolute;
+  top: 0px;
+  left: 101%;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 1px var(--hoverColor);
+}
+.rightDropped li {
+  padding: 10px;
+}
+.rightDropped li:hover {
+  background-color: var(--hoverColor);
+}
+/* don't include the ul the dropped right */
+.dropRight:hover:not(ul) {
+  background-color: var(--hoverColor);
+}
+.rightDropped li:not(:last-child) {
+  border-bottom: 1px solid gainsboro;
+}
+.rightDropped li a {
+  color: rgb(40, 40, 40);
+}
