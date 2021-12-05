@@ -66,6 +66,7 @@
   position: relative;
   padding: 10px;
   display: inline-block;
+  cursor: pointer;
 }
 /* .tooltip .tooltiptext  li{background-color: seagreen;} */
 .tooltip .tooltiptext {

@@ -1,43 +1,764 @@
- 
-
-{"items":[
-  {"id":"1","category":"pants", "price":280,"name":"Starter Men's Track Pant" ,"rating":5,"path":"./images/pants/pants1 (1).jpg","state":"null"},
-{"id":"2","category":"pants", "price":150,"name":"Cold Weather Running Pant","rating":4,"path":"./images/pants/pants2 (1).jpg","state":"null"},
-  {"id":"3","category":"pants", "price":180,"name":"Slim Fit Jogger pant"     ,"rating":5,"path":"./images/pants/pants3 (1).jpg","state":"null"},
-  {"id":"4","category":"pants", "price":160,"name":"Frickin Slim Jogger Pant" ,"rating":3,"path":"./images/pants/pants4 (1).jpg","state":"null"},
-  {"id":"5","category":"pants", "price":140,"name":"Boxed Logo Fleece Jogger" ,"rating":2,"path":"./images/pants/pants5 (1).jpg","state":"null"},
-  {"id":"6","category":"pants", "price":185,"name":"Performance Chino Jogger" ,"rating":3,"path":"./images/pants/pants6 (1).jpg","state":"null"},
-
-
-  {"id":"7", "category":"tShirts", "price":110,"name":"Short-Sleeve T-Shirt"       ,"rating":5,"path":"./images/shirt/shirt1 (1).jpg","state":"null"},
-  {"id":"8", "category":"tShirts", "price":135,"name":"Classic Jersey T-shirt"     ,"rating":3,"path":"./images/shirt/shirt2 (1).jpg","state":"null"},
-  {"id":"9", "category":"tShirts", "price":140,"name":"Legend Short Sleeve shirt"  ,"rating":3,"path":"./images/shirt/shirt3 (1).jpg","state":"null"},
-  {"id":"10","category":"tShirts", "price":120,"name":"Workout Cotton Shirt"       ,"rating":4,"path":"./images/shirt/shirt4 (1).jpg","state":"null"},
-  {"id":"12","category":"tShirts", "price":150,"name":"Ultra Cotton T-Shirt"       ,"rating":2,"path":"./images/shirt/shirt6 (1).jpg","state":"null"},
-
-
-  {"id":"13","category":"shoese", "price":280,"name":"Under Armour Running Sneaker"     ,"rating":5,"path":"./images/shoes/shoes1 (1).jpg","state":"null"},
-  {"id":"14","category":"shoese", "price":250,"name":"Men's Grand Court Sneaker"        ,"rating":3,"path":"./images/shoes/shoes2 (1).jpg","state":"null"},
-  {"id":"15","category":"shoese", "price":240,"name":"Energy Afterburn Lace-Up Sneaker" ,"rating":5,"path":"./images/shoes/shoes3 (1).jpg","state":"null"},
-  {"id":"16","category":"shoese", "price":265,"name":"Classic Leather Sneaker"          ,"rating":4,"path":"./images/shoes/shoes4 (1).jpg","state":"null"},
-  {"id":"17","category":"shoese", "price":245,"name":"Samba Classic Indoor Sneaker"     ,"rating":4,"path":"./images/shoes/shoes5 (1).jpg","state":"null"},
-  {"id":"18","category":"shoese", "price":275,"name":"Flex Control TR3 Sneaker"         ,"rating":2,"path":"./images/shoes/shoes6 (1).jpg","state":"null"},
-
-
-  {"id":"19","category":"socks", "price":40,"name":"Athletic Cushioned Socks (6-pair)"     ,"rating":5,"path":"./images/socks/socks1 (1).jpg","state":"null"},
-  {"id":"20","category":"socks", "price":35,"name":"Moisture Control Socks (6-pair)"       ,"rating":4,"path":"./images/socks/socks2 (1).jpg","state":"null"},
-  {"id":"21","category":"socks", "price":45,"name":"Stretch Cotton Cushion Socks (6-pair)" ,"rating":4,"path":"./images/socks/socks3 (1).jpg","state":"null"},
-  {"id":"22","category":"socks", "price":30,"name":"Dri-tech Moisture Socks"               ,"rating":5,"path":"./images/socks/socks4 (1).jpg","state":"null"},
-  {"id":"23","category":"socks", "price":50,"name":"Saucony ventilating Socks"             ,"rating":3,"path":"./images/socks/socks5 (1).jpg","state":"new"},
-  {"id":"24","category":"socks", "price":35,"name":"Cushioned Invisible Liner Socks"       ,"rating":2,"path":"./images/socks/socks6 (1).jpg","state":"null"},
-
-
-  {"id":"25","category":"watches", "price":340,"name":"Armitron Sport Digital Watch"       ,"rating":5,"path":"./images/watchs/watch1 (1).jpg","state":"new"},
-  {"id":"26","category":"watches", "price":320,"name":"MorePro Fitness watch"              ,"rating":4,"path":"./images/watchs/watch2 (1).jpg","state":"null"},
-  {"id":"27","category":"watches", "price":350,"name":"Seizehe Fitness watch"              ,"rating":4,"path":"./images/watchs/watch3 (1).jpg","state":"new"},
-  {"id":"28","category":"watches", "price":310,"name":"Armitron Sport Digital Watch"       ,"rating":5,"path":"./images/watchs/watch4 (1).jpg","state":"null"},
-  {"id":"29","category":"watches", "price":360,"name":"Digital Sports Waterproof Watch"    ,"rating":3,"path":"./images/watchs/watch5 (1).jpg","state":"new"},
-  {"id":"30","category":"watches", "price":330,"name":"Seiko Prospex Analog/Digital Watch" ,"rating":2,"path":"./images/watchs/watch6 (1).jpg","state":"null"}
-]
+{
+  "items": [
+    {
+      "id": "1",
+      "Parentcategory":"pants",
+      "category": "Mpants",
+      "type": "Home / Pants",
+      "price": 280,
+      "name": "Dark-Grey Pants",
+      "rating": 5,
+      "path": "./images/pants/pants1 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Starter Men's Track Pants.",
+      "otherImgS": [
+        "./images/pants/pants1 (1).jpg",
+        "./images/pants/pants1 (2).jpg",
+        "./images/pants/pants1 (3).jpg",
+        "./images/pants/pants1 (4).jpg"
+      ]
+    },
+    {
+      "id": "2",
+      "Parentcategory":"pants",
+      "category": "Mpants",
+      "type": "Home / Pants",
+      "price": 150,
+      "name": "Blue-Black Pants",
+      "rating": 4,
+      "path": "./images/pants/pants2 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Cold Weather Running Pants.",
+      "otherImgS": [
+        "./images/pants/pants2 (1).jpg",
+        "./images/pants/pants2 (2).jpg",
+        "./images/pants/pants2 (3).jpg",
+        "./images/pants/pants2 (4).jpg"
+      ]
+    },
+    {
+      "id": "3",
+      "Parentcategory":"pants",
+      "category": "Wpants",
+      "type": "Home / Pants",
+      "price": 180,
+      "name": "Grey Pants",
+      "rating": 5,
+      "path": "./images/pants/pants3 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Slim Fit Jogger pants.",
+      "otherImgS": [
+        "./images/pants/pants3 (1).jpg",
+        "./images/pants/pants3 (2).jpg",
+        "./images/pants/pants3 (3).jpg",
+        "./images/pants/pants3 (4).jpg"
+      ]
+    },
+    {
+      "id": "4",
+      "Parentcategory":"pants",
+      "category": "Wpants",
+      "type": "Home / Pants",
+      "price": 160,
+      "name": "Black Pants",
+      "rating": 3,
+      "path": "./images/pants/pants4 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Frickin Slim Jogger Pants.",
+      "otherImgS": [
+        "./images/pants/pants4 (1).jpg",
+        "./images/pants/pants4 (2).jpg",
+        "./images/pants/pants4 (3).jpg",
+        "./images/pants/pants4 (4).jpg"
+      ]
+    },
+    {
+      "id": "5",
+      "Parentcategory":"pants",
+      "category": "Kpants",
+      "type": "Home / Pants",
+      "price": 140,
+      "name": "Light-Grey Joggers",
+      "rating": 2,
+      "path": "./images/pants/pants5 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Boxed Logo Fleece Joggers.",
+      "otherImgS": [
+        "./images/pants/pants5 (1).jpg",
+        "./images/pants/pants5 (2).jpg",
+        "./images/pants/pants5 (3).jpg",
+        "./images/pants/pants5 (4).jpg"
+      ]
+    },
+    {
+      "id": "6",
+      "Parentcategory":"pants",
+      "category": "Kpants",
+      "type": "Home / Pants",
+      "price": 185,
+      "name": "Dark-Blue Joggers",
+      "rating": 3,
+      "path": "./images/pants/pants6 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Performance Chino Joggers.",
+      "otherImgS": [
+        "./images/pants/pants6 (1).jpg",
+        "./images/pants/pants6 (2).jpg",
+        "./images/pants/pants6 (3).jpg",
+        "./images/pants/pants6 (4).jpg"
+      ]
+    },
+    {
+      "id": "7",
+      "Parentcategory":"tShirts",
+      "category": "MtShirts",
+      "type": "Home / T-Shirt",
+      "price": 110,
+      "name": "Black Printed T-Shirt",
+      "rating": 5,
+      "path": "./images/shirt/shirt1 (1).jpg",
+      "state": "new",
+      "sizes": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Men Short-Sleeve Black T-Shirt by Adidas.",
+      "otherImgS": [
+        "./images/shirt/shirt1 (1).jpg",
+        "./images/shirt/shirt1 (2).jpg",
+        "./images/shirt/shirt1 (3).jpg",
+        "./images/shirt/shirt1 (4).jpg"
+      ]
+    },
+    {
+      "id": "8",
+      "Parentcategory":"tShirts",
+      "category": "MtShirts",
+      "type": "Home / T-Shirt",
+      "price": 135,
+      "name": "Light-Grey T-shirt",
+      "rating": 3,
+      "path": "./images/shirt/shirt2 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Men Classic Jersey Light-Grey T-Shirt by Adidas.",
+      "otherImgS": [
+        "./images/shirt/shirt2 (1).jpg",
+        "./images/shirt/shirt2 (2).jpg",
+        "./images/shirt/shirt2 (3).jpg",
+        "./images/shirt/shirt2 (4).jpg"
+      ]
+    },
+    {
+      "id": "9",
+      "Parentcategory":"tShirts",
+      "category": "WtShirts",
+      "type": "Home / T-Shirt",
+      "price": 140,
+      "name": "Dark-Brown Shirt",
+      "rating": 3,
+      "path": "./images/shirt/shirt3 (1).jpg",
+      "state": "new",
+      "sizes": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Legend Short Sleeve Dark-Brown Shirt by Reebok.",
+      "otherImgS": [
+        "./images/shirt/shirt3 (1).jpg",
+        "./images/shirt/shirt3 (2).jpg",
+        "./images/shirt/shirt3 (3).jpg",
+        "./images/shirt/shirt3 (4).jpg"
+      ]
+    },
+    {
+      "id": "10",
+      "Parentcategory":"tShirts",
+      "category": "WtShirts",
+      "type": "Home / T-Shirt",
+      "price": 120,
+      "name": "Black Printed Shirt",
+      "rating": 4,
+      "path": "./images/shirt/shirt4 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Men Workout Cotton Black Shirt by Magma.",
+      "otherImgS": [
+        "./images/shirt/shirt4 (1).jpg",
+        "./images/shirt/shirt4 (2).jpg",
+        "./images/shirt/shirt4 (3).jpg",
+        "./images/shirt/shirt4 (4).jpg"
+      ]
+    },
+    {
+      "id": "11",
+      "Parentcategory":"tShirts",
+      "category": "KtShirts",
+      "type": "Home / T-Shirt",
+      "price": 170,
+      "name": "Black Printed T-Shirt",
+      "rating": 5,
+      "path": "./images/shirt/shirt5 (1).jpg",
+      "state": "new",
+      "sizes": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Men Athletic Workout Black T-Shirt by NB.",
+      "otherImgS": [
+        "./images/shirt/shirt5 (1).jpg",
+        "./images/shirt/shirt5 (2).jpg",
+        "./images/shirt/shirt5 (3).jpg",
+        "./images/shirt/shirt5 (4).jpg"
+      ]
+    },
+    {
+      "id": "12",
+      "Parentcategory":"tShirts",
+      "category": "KtShirts",
+      "type": "Home / T-Shirt",
+      "price": 150,
+      "name": "Blue Printed T-Shirt",
+      "rating": 2,
+      "path": "./images/shirt/shirt6 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Men Ultra Cotton Blue T-Shirt by Adidas.",
+      "otherImgS": [
+        "./images/shirt/shirt6 (1).jpg",
+        "./images/shirt/shirt6 (2).jpg",
+        "./images/shirt/shirt6 (3).jpg",
+        "./images/shirt/shirt6 (4).jpg"
+      ]
+    },
+    {
+      "id": "13",
+      "Parentcategory":"shoese",
+      "category": "Mshoese",
+      "type": "Sport / Shoes",
+      "price": 280,
+      "name": "Black Stripe White Sneakers",
+      "rating": 5,
+      "path": "./images/shoes/shoes1 (1).jpg",
+      "state": "new",
+      "sizes": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48"
+      ],
+      "productDescription": "Men Under Armour Running Sneakers.",
+      "otherImgS": [
+        "./images/shoes/shoes1 (1).jpg",
+        "./images/shoes/shoes1 (2).jpg",
+        "./images/shoes/shoes1 (3).jpg",
+        "./images/shoes/shoes1 (4).jpg"
+      ]
+    },
+    {
+      "id": "14",
+      "Parentcategory":"shoese",
+      "category": "Mshoese",
+      "type": "Sport / Shoes",
+      "price": 250,
+      "name": "White Stripe Light-Grey Sneakers",
+      "rating": 3,
+      "path": "./images/shoes/shoes2 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48"
+      ],
+      "productDescription": "Men's Grand Court Sneakers.",
+      "otherImgS": [
+        "./images/shoes/shoes2 (1).jpg",
+        "./images/shoes/shoes2 (2).jpg",
+        "./images/shoes/shoes2 (3).jpg",
+        "./images/shoes/shoes2 (4).jpg"
+      ]
+    },
+    {
+      "id": "15",
+      "Parentcategory":"shoese",
+      "category": "Wshoese",
+      "type": "Sport / Shoes",
+      "price": 240,
+      "name": "Black Sneakers",
+      "rating": 5,
+      "path": "./images/shoes/shoes3 (1).jpg",
+      "state": "new",
+      "sizes": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48"
+      ],
+      "productDescription": "Men Energy Afterburn Lace-Up Sneakers.",
+      "otherImgS": [
+        "./images/shoes/shoes3 (1).jpg",
+        "./images/shoes/shoes3 (2).jpg",
+        "./images/shoes/shoes3 (3).jpg",
+        "./images/shoes/shoes3 (4).jpg"
+      ]
+    },
+    {
+      "id": "16",
+      "Parentcategory":"shoese",
+      "category": "Wshoese",
+      "type": "Sport / Shoes",
+      "price": 265,
+      "name": "Dark-Pink Sneakers",
+      "rating": 4,
+      "path": "./images/shoes/shoes4 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48"
+      ],
+      "productDescription": "Women Energy Afterburn Lace-Up Sneakers.",
+      "otherImgS": [
+        "./images/shoes/shoes4 (1).jpg",
+        "./images/shoes/shoes4 (2).jpg",
+        "./images/shoes/shoes4 (3).jpg",
+        "./images/shoes/shoes4 (4).jpg"
+      ]
+    },
+    {
+      "id": "17",
+      "Parentcategory":"shoese",
+      "category": "Kshoese",
+      "type": "Sport / Shoes",
+      "price": 245,
+      "name": "Dark-Grey Sneakers",
+      "rating": 4,
+      "path": "./images/shoes/shoes5 (1).jpg",
+      "state": "new",
+      "sizes": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48"
+      ],
+      "productDescription": "Men Samba Classic Indoor Sneakers.",
+      "otherImgS": [
+        "./images/shoes/shoes5 (1).jpg",
+        "./images/shoes/shoes5 (2).jpg",
+        "./images/shoes/shoes5 (3).jpg",
+        "./images/shoes/shoes5 (4).jpg"
+      ]
+    },
+    {
+      "id": "18",
+      "Parentcategory":"shoese",
+      "category": "Kshoese",
+      "type": "Sport / Shoes",
+      "price": 275,
+      "name": "Light-Pink Sneakers",
+      "rating": 2,
+      "path": "./images/shoes/shoes6 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48"
+      ],
+      "productDescription": "Women Samba Classic Indoor Sneakers.",
+      "otherImgS": [
+        "./images/shoes/shoes6 (1).jpg",
+        "./images/shoes/shoes6 (2).jpg",
+        "./images/shoes/shoes6 (3).jpg",
+        "./images/shoes/shoes6 (4).jpg"
+      ]
+    },
+    {
+      "id": "19",
+      "Parentcategory":"socks",
+      "category":"Msocks",
+      "type": "Sport / Socks",
+      "price": 40,
+      "name": "Black Socks",
+      "rating": 5,
+      "path": "./images/socks/socks1 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Athletic Cushioned Socks (3-pairs)",
+      "otherImgS": [
+        "./images/socks/socks1 (1).jpg",
+        "./images/socks/socks1 (2).jpg",
+        "./images/socks/socks1 (3).jpg",
+        "./images/socks/socks1 (4).jpg"
+      ]
+    },
+    {
+      "id": "20",
+      "Parentcategory":"socks",
+      "category":"Msocks",
+      "type": "Sport / Socks",
+      "price": 35,
+      "name": "White/Black Socks",
+      "rating": 4,
+      "path": "./images/socks/socks2 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Moisture Control Socks (3-pairs)",
+      "otherImgS": [
+        "./images/socks/socks2 (1).jpg",
+        "./images/socks/socks2 (2).jpg",
+        "./images/socks/socks2 (3).jpg",
+        "./images/socks/socks2 (4).jpg"
+      ]
+    },
+    {
+      "id": "21",
+      "Parentcategory":"socks",
+      "category":"Wsocks",
+      "type": "Sport / Socks",
+      "price": 45,
+      "name": "White Socks",
+      "rating": 4,
+      "path": "./images/socks/socks3 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Stretch Cotton Cushion Socks (3-pairs)",
+      "otherImgS": [
+        "./images/socks/socks3 (1).jpg",
+        "./images/socks/socks3 (2).jpg"
+      ]
+    },
+    {
+      "id": "22",
+      "Parentcategory":"socks",
+      "category":"Wsocks",
+      "type": "Sport / Socks",
+      "price": 30,
+      "name": "Blue/White/Light-Grey Socks",
+      "rating": 5,
+      "path": "./images/socks/socks4 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Dri-tech Moisture Socks (3-pairs)",
+      "otherImgS": [
+        "./images/socks/socks4 (1).jpg",
+        "./images/socks/socks4 (2).jpg",
+        "./images/socks/socks4 (3).jpg",
+        "./images/socks/socks4 (4).jpg"
+      ]
+    },
+    {
+      "id": "23",
+      "Parentcategory":"socks",
+      "category":"Ksocks",
+      "type": "Sport / Socks",
+      "price": 50,
+      "name": "Red/white/Black Socks",
+      "rating": 3,
+      "path": "./images/socks/socks5 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Saucony ventilating Socks (3-pairs)",
+      "otherImgS": [
+        "./images/socks/socks5 (1).jpg",
+        "./images/socks/socks5 (2).jpg",
+        "./images/socks/socks5 (3).jpg",
+        "./images/socks/socks5 (4).jpg"
+      ]
+    },
+    {
+      "id": "24",
+      "Parentcategory":"socks",
+      "category":"Ksocks",
+      "type": "Sport / Socks",
+      "price": 35,
+      "name": "Black Stripe White Socks",
+      "rating": 2,
+      "path": "./images/socks/socks6 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Cushioned Invisible Liner Socks",
+      "otherImgS": [
+        "./images/socks/socks6 (1).jpg",
+        "./images/socks/socks6 (2).jpg",
+        "./images/socks/socks6 (3).jpg",
+        "./images/socks/socks6 (4).jpg"
+      ]
+    },
+    {
+      "id": "25",
+      "category":"watches",
+      "type": "Smart / Watch",
+      "price": 340,
+      "name": "White Watch",
+      "rating": 5,
+      "path": "../images/watchs/watch1 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Armitron Sport Digital Watch",
+      "otherImgS": [
+        "./images/watchs/watch1 (1).jpg",
+        "./images/watchs/watch1 (2).jpg",
+        "./images/watchs/watch1 (3).jpg",
+        "./images/watchs/watch1 (4).jpg"
+      ]
+    },
+    {
+      "id": "26",
+      "category":"watches",
+      "type": "Smart / Watch",
+      "price": 320,
+      "name": "Black Watch",
+      "rating": 4,
+      "path": "./images/watchs/watch2 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "MorePro Fitness Watch",
+      "otherImgS": [
+        "./images/watchs/watch2 (1).jpg",
+        "./images/watchs/watch2 (2).jpg",
+        "./images/watchs/watch2 (3).jpg",
+        "./images/watchs/watch2 (4).jpg"
+      ]
+    },
+    {
+      "id": "27",
+      "category":"watches",
+      "type": "Smart / Watch",
+      "price": 350,
+      "name": "Light-Green Watch",
+      "rating": 4,
+      "path": "../images/watchs/watch3 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Seizehe Fitness Watch",
+      "otherImgS": [
+        "./images/watchs/watch3 (1).jpg",
+        "./images/watchs/watch3 (2).jpg",
+        "./images/watchs/watch3 (3).jpg",
+        "./images/watchs/watch3 (4).jpg"
+      ]
+    },
+    {
+      "id": "28",
+      "category":"watches",
+      "type": "Smart / Watch",
+      "price": 310,
+      "name": "Black Watch",
+      "rating": 5,
+      "path": "./images/watchs/watch4 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Armitron Sport Digital Watch",
+      "otherImgS": [
+        "./images/watchs/watch4 (1).jpg",
+        "./images/watchs/watch4 (2).jpg",
+        "./images/watchs/watch4 (3).jpg",
+        "./images/watchs/watch4 (4).jpg"
+      ]
+    },
+    {
+      "id": "29",
+      "category":"watches",
+      "type": "Smart / Watch",
+      "price": 360,
+      "name": "Light-Pink Watch",
+      "rating": 3,
+      "path": "./images/watchs/watch5 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Digital Sports Waterproof Watch",
+      "otherImgS": [
+        "./images/watchs/watch5 (1).jpg",
+        "./images/watchs/watch5 (2).jpg",
+        "./images/watchs/watch5 (3).jpg",
+        "./images/watchs/watch5 (4).jpg"
+      ]
+    },
+    {
+      "id": "30",
+      "category":"watches",
+      "type": "Smart / Watch",
+      "price": 330,
+      "name": "Black Watch",
+      "rating": 2,
+      "path": "./images/watchs/watch6 (1).jpg",
+      "state": "null",
+      "sizes": [
+        "L",
+        "M",
+        "S"
+      ],
+      "productDescription": "Seiko Prospex Analog/Digital Watch",
+      "otherImgS": [
+        "./images/watchs/watch6 (1).jpg",
+        "./images/watchs/watch6 (2).jpg",
+        "./images/watchs/watch6 (3).jpg",
+        "./images/watchs/watch6 (4).jpg"
+      ]
+    }
+  ]
 }
-

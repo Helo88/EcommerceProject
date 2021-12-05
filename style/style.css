@@ -118,6 +118,7 @@ nav .container {
   width: 150px;
   height: 50px;
   margin-right:3%;
+  cursor: pointer;
 }
 #logo > img {
   height: 100%;
@@ -172,7 +173,7 @@ nav #navList .navBig {
  /* background-color: yellowgreen; */
 }
 nav #navList .navBig >li{
-  /* background-color: indianred; */
+ cursor: pointer;
 }
 nav #navList .navBig >li:last-of-type  i{
  margin-top:0px;

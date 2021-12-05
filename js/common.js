@@ -93,8 +93,7 @@ for (let i = 0; i < document.getElementsByClassName("icofont-star").length; i++)
     div1.appendChild(div2)
     div1.addEventListener('click',function(e){
         console.log("mnsnjsnksnks")
-        localStorage.setItem("currentItem",`${obj.id}`)
-        window.location.href=`../html/singleItem.html`
+        window.location.href = `../html/singleItem.html` + '?id=' + obj.id
     })
     div1.style.cursor="pointer"
     return div1

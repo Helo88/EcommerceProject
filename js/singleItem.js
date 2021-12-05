@@ -1,4 +1,8 @@
-let varM = localStorage.getItem("currentItem")
+
+const urlParams = new URLSearchParams(window.location.search);
+let varM = urlParams.get('id');
+
+
 let allItems;
 let RelatedCon =document.getElementById("RelatedCon")
 let RelArr=[1,8,21,23]
