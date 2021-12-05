@@ -389,11 +389,12 @@ footer .container .col:last-child li i {
   nav .container {
     align-items: flex-start;
   }
-
+  
    nav .tooltip{
-   display: none;
-   }
- /* .navBig{background-color: salmon;} */
+    margin-top: 5px;
+    margin-left: 4px;
+  }
+
   #navIcona{
    margin-right: 20px;
  }
@@ -404,7 +405,7 @@ footer .container .col:last-child li i {
      display: none;
    }
    nav .container > #logo {
-   margin-left: 0px;;
+   margin-left: -20px;;
    /* position: fixed; */
    }
   nav #navList > form {
@@ -418,18 +419,6 @@ footer .container .col:last-child li i {
     margin-right: 10px;
     font-size: 20px;
   }
-  nav #navList .navBig {
-    /* flex-direction: column; */
-    /* background-color: aliceblue; */
-    
-  }
-  nav #navList .navBig li {
-    /* margin-bottom: 20px; */
-  }
-
-  /* nav #navList .navBig li:last-child {
-    display: none;
-  } */
   main {
     text-align: center;
     flex-direction: column;
@@ -446,6 +435,10 @@ footer .container .col:last-child li i {
   .Item img {
     width: 100%;
   }
+  #navIcona{
+    display: none;
+    /* background-color: aquamarine; */
+  }
 }
 
   @media (min-width: 993px) {
@@ -453,5 +446,9 @@ footer .container .col:last-child li i {
       display: none;
       /* background-color: aquamarine; */
     }
+    .navBig:not(i:last-child){
+      display: none;
+    }
+
     
   }
